@@ -20,10 +20,5 @@ namespace Lab7
             int area = Side * Side;
             return area;
         }
-        public override void PrintInfo()
-        {
-            this.Draw();
-            this.Area();
-        }
     }
 }

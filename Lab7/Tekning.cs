@@ -16,9 +16,9 @@ namespace Lab7
         {
             Console.WriteLine("Ritar basformen");
         }
-        public virtual void PrintInfo()
-        {
+        //public virtual void PrintInfo()
+        //{
 
-        }
-    }    
+        //}
+    }
 }

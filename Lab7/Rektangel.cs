@@ -22,11 +22,6 @@ namespace Lab7
             double area = Width * Length;
             return area;
         }
-        public override void PrintInfo()
-        {
-            this.Draw();
-            this.Area();
-        }
 
     }
 }

@@ -6,17 +6,16 @@ namespace Lab7
     {
         static void Main(string[] args)
         {
-            
 
             Tekning cirkel = new Cirkel();
             Tekning fyrkant = new Fyrkant();
             Tekning rektangel = new Rektangel();
 
-            cirkel.PrintInfo();
+            cirkel.Draw();
             Console.WriteLine();
-            fyrkant.PrintInfo();
+            fyrkant.Draw();
             Console.WriteLine();
-            rektangel.PrintInfo();
+            rektangel.Draw();
             Console.WriteLine();
 
             Console.ReadKey();

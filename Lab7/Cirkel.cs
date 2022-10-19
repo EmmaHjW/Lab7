@@ -19,10 +19,5 @@ namespace Lab7
         {
            return Math.Round(Math.PI * Math.Pow(Radius, 2));
         }
-        public override void PrintInfo()
-        {
-            this.Draw(); 
-            this.Area();
-        }
     }
 }
